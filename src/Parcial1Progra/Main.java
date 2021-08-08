@@ -20,7 +20,28 @@ class main {
             System.out.println("1. operaciones basicas    1");
             System.out.println("2. operaciones Avanzadas  2");
             System.out.println("3. Salir del programa");
-        }
 
+            try {
+
+                //Pide una opcion
+                System.out.println("Por favor, seleccione:   ");
+                opcion = sn.nextInt();
+
+                //Realiza una de las opciones
+                switch (opcion) {
+                    case 1:
+                        menubasico();
+                        break;
+                    case 2:
+                        menuavanzado();
+                        break;
+                    case 3:
+                        salir = true;
+                        break;
+                    default:
+                        System.out.println("Las opciones son entre 1 y 3");
+                }
+
+            }
+        }
     }
-}
