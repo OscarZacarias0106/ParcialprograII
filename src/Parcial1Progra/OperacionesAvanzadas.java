@@ -33,7 +33,7 @@ public class OperacionesAvanzadas {
     static void seno(){
         System.out.println("Seno de un Angulo");
         Scanner leer = new Scanner(System.in);
-        double num1 = 0;
+        double num1;
         double  resultado;
         System.out.println("Ingrese el angulo a calcular");
         num1=leer.nextDouble();
@@ -47,7 +47,7 @@ public class OperacionesAvanzadas {
     static void cos(){
         System.out.println("Coseno de un Angulo");
         Scanner leer = new Scanner(System.in);
-        double num1 = 0;
+        double num1;
         double  resultado;
         System.out.println("Ingrese el angulo a calcular");
         num1=leer.nextDouble();
@@ -61,7 +61,7 @@ public class OperacionesAvanzadas {
     static void tan(){
         System.out.println("Tangente de un Angulo");
         Scanner leer = new Scanner(System.in);
-        double num1 = 0;
+        double num1;
         double  resultado;
         System.out.println("Ingrese el valor del angulo a calcular");
         num1=leer.nextDouble();
