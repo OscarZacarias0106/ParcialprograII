@@ -38,8 +38,23 @@ public class OperacionesAvanzadas {
         System.out.println("Ingrese el angulo a calcular");
         num1=leer.nextDouble();
         double  rad=Math.toRadians(num1);
+        //funcion matematica utilizada  es math.sin
         resultado=Math.sin(rad);
         System.out.println("Seno de "+num1+"º es "+resultado);
+        System.out.println(" ");
+
+    }
+    static void cos(){
+        System.out.println("Coseno de un Angulo");
+        Scanner leer = new Scanner(System.in);
+        double num1 = 0;
+        double  resultado;
+        System.out.println("Ingrese el angulo a calcular");
+        num1=leer.nextDouble();
+        double  rad=Math.toRadians(num1);
+        //funcion matematica utilizada  es math.cos
+        resultado=Math.cos(rad);
+        System.out.println("Coseno de "+num1+"º es "+resultado);
         System.out.println(" ");
 
     }
