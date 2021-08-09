@@ -1,6 +1,7 @@
 package Parcial1Progra;
 
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 class main {
@@ -41,7 +42,17 @@ class main {
                     default:
                         System.out.println("Las opciones son entre 1 y 3");
                 }
-
+                //controla la excepcionn en caso de que se introduzca un valor no correcto
+            }catch(InputMismatchException e){
+                System.out.println("Debes escribir un numero");
+                sn.next();
             }
+
         }
+
+        System.out.println("Fin del menu");
+
     }
+
+}
+        
