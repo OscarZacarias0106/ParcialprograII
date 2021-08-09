@@ -4,6 +4,7 @@ package Parcial1Progra;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+import static Parcial1Progra.OperacionesAvanzadas.*;
 import static Parcial1Progra.OperacionesBasicas.*;
 
 class main {
@@ -130,6 +131,50 @@ class main {
             System.out.println("4. calcular coseno    4");
             System.out.println("5. calcular tangente  5");
             System.out.println("6. Regresar al menu Principal");
+
+            try{
+
+                //Pide una opcion
+                System.out.println("Introduce un numero: ");
+                opcion = sn.nextInt();
+
+                //Realiza una de las opciones
+                switch (opcion) {
+
+                    case 1:
+                        raiz();
+                        break;
+                    case 2:
+                        potencia();
+                        break;
+                    case 3:
+                        seno();
+                        break;
+                    case 4:
+                        cos();
+                        break;
+                    case 5:
+                        tan();
+                        break;
+                    case 6:
+                        salir=true;
+                        break;
+                    default:
+                        System.out.println("Las opciones son entre 1 y 7");
+                }
+
+
+                //controla la excepcionn en caso de que se introduzca un valor no correcto
+            }catch(InputMismatchException e){
+                System.out.println("Debes escribir un numero");
+                sn.next();
+            }
+
         }
+
+        System.out.println("Fin del menu");
+
+    }
+}
 
 
