@@ -48,4 +48,19 @@ public class OperacionesBasicas {
         System.out.println(" ");
 
     }
+    static void division(){
+        System.out.println("Division");
+        Scanner leer = new Scanner(System.in);
+        int num1;
+        int num2;
+        int resultado;
+        System.out.println("Escriba el primer Digito");
+        num1=leer.nextInt();
+        System.out.println("Escriba el segundo Digito");
+        num2=leer.nextInt();
+        resultado=num1/num2;
+        System.out.println("La divison es "+resultado);
+        System.out.println(" ");
+
+    }
 }
