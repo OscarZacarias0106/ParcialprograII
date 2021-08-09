@@ -112,6 +112,24 @@ class main {
 
         System.out.println("Fin del menu");
         }
-    }
+    static void menuavanzado() {
+        Scanner sn = new Scanner(System.in);
 
-}
+        //Indica si salimos o no.
+        boolean salir = false;
+        int opcion;
+
+        //Bucle para pedir las opciones hasta que elijamos salir.
+        while (!salir) {
+
+            //opciones.
+            System.out.println("--Bienvendio a caluladora Avanzada--");
+            System.out.println("1. raiz      1");
+            System.out.println("2. potencia  2");
+            System.out.println("3. calcular seno      3");
+            System.out.println("4. calcular coseno    4");
+            System.out.println("5. calcular tangente  5");
+            System.out.println("6. Regresar al menu Principal");
+        }
+
+
