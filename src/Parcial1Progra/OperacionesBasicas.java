@@ -39,9 +39,9 @@ public class OperacionesBasicas {
         int num1;
         int num2;
         int resultado;
-        System.out.println("Escriba el primer Numero");
+        System.out.println("Escriba el primer Digito");
         num1=leer.nextInt();
-        System.out.println("Escriba el segundo numero");
+        System.out.println("Escriba el segundo Digito");
         num2=leer.nextInt();
         resultado=num1*num2;
         System.out.println("La multiplicacion es "+resultado);
