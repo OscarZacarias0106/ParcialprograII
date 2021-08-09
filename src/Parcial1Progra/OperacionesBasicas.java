@@ -6,13 +6,13 @@ public class OperacionesBasicas {
     static void suma(){
         System.out.println("Suma");
         Scanner leer = new Scanner(System.in);
-        int num1;
-        int num2;
-        int resultado;
+        double num1;
+        double num2;
+        double resultado;
         System.out.println("Escriba el primer Numero");
-        num1=leer.nextInt();
+        num1=leer.nextDouble();
         System.out.println("Escriba el segundo numero");
-        num2=leer.nextInt();
+        num2=leer.nextDouble();
         resultado=num1+num2;
         System.out.println("La suma es "+resultado);
         System.out.println(" ");
@@ -21,13 +21,13 @@ public class OperacionesBasicas {
     static void resta(){
         System.out.println("Resta");
         Scanner leer = new Scanner(System.in);
-        int num1;
-        int num2;
-        int resultado;
+        double num1;
+        double num2;
+        double resultado;
         System.out.println("Escriba el primer Numero");
-        num1=leer.nextInt();
+        num1=leer.nextDouble();
         System.out.println("Escriba el segundo numero");
-        num2=leer.nextInt();
+        num2=leer.nextDouble();
         resultado=num1-num2;
         System.out.println("La resta es "+resultado);
         System.out.println(" ");
