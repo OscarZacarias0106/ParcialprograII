@@ -21,8 +21,8 @@ class main {
         while (!salir) {
             //opciones
             System.out.println("--Bienvendio a caluladora--  ");
-            System.out.println("1. operaciones basicas    1");
-            System.out.println("2. operaciones Avanzadas  2");
+            System.out.println("1. operaciones basicas    ");
+            System.out.println("2. operaciones Avanzadas  ");
             System.out.println("3. Salir del programa");
 
             try {
