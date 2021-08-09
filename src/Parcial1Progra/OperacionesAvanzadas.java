@@ -30,4 +30,17 @@ public class OperacionesAvanzadas {
         System.out.println(" ");
 
     }
+    static void seno(){
+        System.out.println("Seno de un Angulo");
+        Scanner leer = new Scanner(System.in);
+        double num1 = 0;
+        double  resultado;
+        System.out.println("Ingrese el angulo a calcular");
+        num1=leer.nextDouble();
+        double  rad=Math.toRadians(num1);
+        resultado=Math.sin(rad);
+        System.out.println("Seno de "+num1+"º es "+resultado);
+        System.out.println(" ");
+
+    }
 }
