@@ -53,6 +53,14 @@ class main {
         System.out.println("Fin del menu");
 
     }
+    static void menubasico() {
+        Scanner sn = new Scanner(System.in);
 
+        //Indica si salimos o no
+        boolean salir = false;
+        int opcion;
+
+        //Bucle para pedir las opciones hasta que elijamos salir
+        while (!salir);
+    }
 }
-        
