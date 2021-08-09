@@ -58,4 +58,18 @@ public class OperacionesAvanzadas {
         System.out.println(" ");
 
     }
+    static void tan(){
+        System.out.println("Tangente de un Angulo");
+        Scanner leer = new Scanner(System.in);
+        double num1 = 0;
+        double  resultado;
+        System.out.println("Ingrese el valor del angulo a calcular");
+        num1=leer.nextDouble();
+        double  rad=Math.toRadians(num1);
+        //funcion matematica utilizada  es math.tan
+        resultado=Math.tan(rad);
+        System.out.println("Tangente de "+num1+"º es "+resultado);
+        System.out.println(" ");
+
+    }
 }
