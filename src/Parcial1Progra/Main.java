@@ -33,19 +33,12 @@ class main {
 
                 //Realiza una de las opciones
                 switch (opcion) {
-                    case 1:
-                        menubasico();
-                        break;
-                    case 2:
-                        menuavanzado();
-                        break;
-                    case 3:
-                        salir = true;
-                        break;
-                    default:
-                        System.out.println("Las opciones son entre 1 y 3");
+                    case 1 -> menubasico();
+                    case 2 -> menuavanzado();
+                    case 3 -> salir = true;
+                    default -> System.out.println("Las opciones son entre 1 y 3");
                 }
-                //controla la excepcionn en caso de que se introduzca un valor no correcto
+                //controla la excepcion en caso de que se introduzca un valor no correcto
             }catch(InputMismatchException e){
                 System.out.println("Debes escribir un numero");
                 sn.next();
@@ -83,25 +76,13 @@ class main {
 
                 //Realiza una de las opciones
                 switch (opcion) {
-                    case 1:
-                        suma();
-                        break;
-                    case 2:
-                        resta();
-                        break;
-                    case 3:
-                        multiplicar();
-                        break;
-                    case 4:
-                        division();
-                        break;
-                    case 5:
-                        salir=true;
-                        break;
-                    default:
-                        System.out.println("Las opciones son entre 1 y 5");
+                    case 1 -> suma();
+                    case 2 -> resta();
+                    case 3 -> multiplicar();
+                    case 4 -> division();
+                    case 5 -> salir = true;
+                    default -> System.out.println("Las opciones son entre 1 y 5");
                 }
-
 
                 //controla la excepcionn en caso de que se introduzca un valor no correcto
             }catch(InputMismatchException e){
@@ -140,27 +121,13 @@ class main {
 
                 //Realiza una de las opciones
                 switch (opcion) {
-
-                    case 1:
-                        raiz();
-                        break;
-                    case 2:
-                        potencia();
-                        break;
-                    case 3:
-                        seno();
-                        break;
-                    case 4:
-                        cos();
-                        break;
-                    case 5:
-                        tan();
-                        break;
-                    case 6:
-                        salir=true;
-                        break;
-                    default:
-                        System.out.println("Las opciones son entre 1 y 7");
+                    case 1 -> raiz();
+                    case 2 -> potencia();
+                    case 3 -> seno();
+                    case 4 -> cos();
+                    case 5 -> tan();
+                    case 6 -> salir = true;
+                    default -> System.out.println("Las opciones son entre 1 y 7");
                 }
 
 
